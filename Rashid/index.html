@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Domains Overview</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #f0f8ff; /* Light background for contrast */
+  }
+  .container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .frame {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #3399ff; /* Blue glow */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+  }
+  .frame:hover {
+    box-shadow: 0 0 40px #33ccff;
+    transform: scale(1.05);
+  }
+  .frame img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    border-radius: 8px;
+  }
+  .label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  }
+  /* Different vibrant background colors for each frame (optional) */
+  .hr { background-color: #ffe4e1; }
+  .finance { background-color: #e0ffff; }
+  .marketing { background-color: #fafad2; }
+  .banking { background-color: #e6e6fa; }
+  .trading { background-color: #ffe4b5; }
+  .networks { background-color: #d1f0e8; }
+  .startups { background-color: #ffcccb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="frame hr" title="HR">
+    <img src="images/domains/HR.jpg" alt="HR"/>
+    <div class="label">HR</div>
+  </div>
+  <div class="frame finance" title="Finance">
+    <img src="images/domains/Finance.png" alt="Finance"/>
+    <div class="label">Finance</div>
+  </div>
+  <div class="frame marketing" title="Digital Marketing">
+    <img src="https://img.icons8.com/ios-filled/300/000000/megaphone.png" alt="Digital Marketing"/>
+    <div class="label">Digital Marketing</div>
+  </div>
+  <div class="frame banking" title="Banking">
+    <img src="images/domains/Banking.jpg" alt="Banking"/>
+    <div class="label">Banking</div>
+  </div>
+  <div class="frame trading" title="Trading">
+    <img src="images/domains/Trading.jpg" alt="Trading"/>
+    <div class="label">Trading</div>
+  </div>
+  <div class="frame networks" title="Networks">
+    <img src="images/domains/Networking.jpg" alt="Networks"/>
+    <div class="label">Networks</div>
+  </div>
+  <div class="frame startups" title="Startups">
+    <img src="images/domains/Startups.jpg" alt="Startups"/>
+    <div class="label">Startups</div>
+  </div>
+</div>
+</body>
+</html>

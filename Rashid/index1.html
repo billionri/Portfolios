@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rashid Shafique Alam - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, black, #0e1a2f);
+      color: white;
+    }
+    header, footer {
+      padding: 20px;
+      text-align: center;
+      background-color: #111;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #00bfff;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .skills .skill {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 5px;
+      background: #111;
+      border: 1px solid #00bfff;
+      border-radius: 8px;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .skills .skill:hover {
+      background: #00bfff;
+      transform: scale(1.05);
+      color: black;
+    }
+    .projects {
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+    }
+    .projects img {
+      height: 200px;
+      border: 2px solid #00bfff;
+      border-radius: 10px;
+    }
+    .logos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .logos img {
+      height: 50px;
+    }
+    @media (max-width: 768px) {
+      .projects {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rashid Shafique Alam</h1>
+    <p>Email: alam.rashid039@gmail.com | Mobile: 8655707563</p>
+    <p>a software builder</p>
+  </header>
+
+  <div class="container">
+    <div class="section">
+      <h2>Description</h2>
+      <p>Senior Software Engineer with 11+ years of experience in Python, Django, Flask, DevOps, and Cloud.</p>
+    </div>
+
+    <div class="section">
+      <h2>Experiences</h2>
+      <p>Worked with MCX, Infosys, Wipro, and Microsoft on automation, web development, and DevOps projects.</p>
+    </div>
+
+    <div class="section skills">
+      <h2>Skills</h2>
+      <div class="skill">Python</div>
+      <div class="skill">Django</div>
+      <div class="skill">Flask</div>
+      <div class="skill">Docker</div>
+      <div class="skill">Kubernetes</div>
+      <div class="skill">React</div>
+    </div>
+
+    <div class="section">
+      <h2>Sample Projects</h2>
+      <div class="projects">
+        <img src="/path/to/project1.jpg" alt="Project 1">
+        <img src="/path/to/project2.jpg" alt="Project 2">
+        <img src="/path/to/project3.jpg" alt="Project 3">
+        <img src="/path/to/project4.jpg" alt="Project 4">
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Photoshop Images</h2>
+      <img src="/path/to/photoshop.jpg" alt="Photoshop Work" width="100%">
+    </div>
+
+    <div class="section">
+      <h2>Hobbies</h2>
+      <p>Listening to music, Drawing, Exercise, Learning, Coding</p>
+    </div>
+
+    <div class="section">
+      <h2>Awards</h2>
+      <ul>
+        <li>Associate of the Year 2014 - Geecon Global Pvt Ltd</li>
+        <li>Star Performer 2017-18 - Netcore</li>
+        <li>Make IT Happen 2018 - Netcore</li>
+        <li>You Made A Difference 2019-20 - Wipro</li>
+      </ul>
+    </div>
+
+    <div class="section logos">
+      <img src="/path/to/mcx_logo.png" alt="MCX">
+      <img src="/path/to/wipro_logo.png" alt="Wipro">
+      <img src="/path/to/microsoft_logo.png" alt="Microsoft">
+      <img src="/path/to/infosys_logo.png" alt="Infosys">
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Rashid Shafique Alam
+  </footer>
+</body>
+</html>

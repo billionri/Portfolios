@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Ivan's Creative Portfolio</title>
+<style>
+    body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        color: #000;
+        line-height: 1.6;
+    }
+    header {
+        background-color: #fff;
+        padding: 40px 20px;
+        text-align: center;
+        border-bottom: 2px solid #000;
+        position: relative;
+    }
+    header img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #000;
+        margin-bottom: 20px;
+    }
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+        letter-spacing: 2px;
+    }
+    header p {
+        font-size: 1.2em;
+        margin-top: 10px;
+        color: #555;
+    }
+    section {
+        padding: 40px 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+    h2 {
+        font-size: 2em;
+        border-bottom: 2px solid #000;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .skill-card {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 20px;
+        width: 250px;
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+    }
+    .skill-card:hover {
+        box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+        transform: translateY(-5px);
+    }
+    .skill-card h3 {
+        margin-top: 0;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+    }
+    /* New section styles for works/clients */
+    #works {
+        margin-top: 40px;
+    }
+    .works-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .work-item {
+        width: 200px;
+        text-align: center;
+    }
+    .work-item img {
+        width: 100%;
+        border-radius: 8px;
+        cursor: pointer;
+        border: 2px solid #ccc;
+        transition: border 0.3s;
+    }
+    .work-item img:hover {
+        border: 2px solid #000;
+    }
+    .work-title {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .contact {
+        text-align: center;
+        margin-top: 30px;
+    }
+    footer {
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+        border-top: 2px solid #000;
+        margin-top: 40px;
+    }
+</style>
+</head>
+<body>
+
+
+<header>
+    <!-- Dummy profile image from Picsum -->
+    <img src="https://picsum.photos/150?random=1" alt="Ivan's Profile Image" />
+    <h1>Ivan</h1>
+    <p>Innovative solutions & skills in tech, real estate, and digital marketing</p>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I'm Ivan, a passionate professional with expertise in ethical hacking, real estate, and digital marketing. With years of experience in each of these fields, I thrive on creating innovative solutions that drive success and security. My commitment to continuous learning and excellence helps me deliver outstanding results for my clients and projects.</p>
+</section>
+
+<section id="skills">
+    <h2>Skills & Expertise</h2>
+    <div class="skills">
+        <div class="skill-card">
+            <h3>Ethical Hacking</h3>
+            <p>Proficient in penetration testing, vulnerability assessment, and security protocols to safeguard digital assets.</p>
+        </div>
+        <div class="skill-card">
+            <h3>Real Estate</h3>
+            <p>Experience in property management, market analysis, and investment strategies for the real estate sector.</p>
+        </div>
+        <div class="skill-card">
+            <h3>Software Development</h3>
+            <p>Skilled in full-stack development, coding in various languages, and creating scalable applications.</p>
+        </div>
+        <div class="skill-card">
+            <h3>Google Ads</h3>
+            <p>Digital marketing expertise in creating campaigns, analytics, and ROI optimization for online advertising.</p>
+        </div>
+        <div class="skill-card">
+            <h3>Video Editing</h3>
+            <p>Creative video editing skills using modern tools to produce engaging content for various platforms.</p>
+        </div>
+    </div>
+</section>
+
+<!-- New Works / Clients section -->
+<section id="works">
+    <h2>My Works / Clients</h2>
+    <div class="works-gallery">
+        <!-- Dummy clickable images for works/clients -->
+        <div class="work-item">
+            <a href="https://picsum.photos/id/1018/800/600" target="_blank">
+                <img src="https://picsum.photos/id/1018/200/150" alt="Client Work 1" />
+            </a>
+            <div class="work-title">Client Project 1</div>
+        </div>
+        <div class="work-item">
+            <a href="https://picsum.photos/id/1025/800/600" target="_blank">
+                <img src="https://picsum.photos/id/1025/200/150" alt="Client Work 2" />
+            </a>
+            <div class="work-title">Client Project 2</div>
+        </div>
+        <div class="work-item">
+            <a href="https://picsum.photos/id/1003/800/600" target="_blank">
+                <img src="https://picsum.photos/id/1003/200/150" alt="Client Work 3" />
+            </a>
+            <div class="work-title">Client Project 3</div>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p class="contact">Email: example@domain.com | Phone: +123 456 7890 | Location: Your City</p>
+</section>
+
+<footer>
+    &copy; 2025 Ivan. All rights reserved.
+</footer>
+
+</body>
+</html>
